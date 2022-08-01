@@ -26,9 +26,9 @@ def browse(browsertype):
 
         driver.find_element(by=By.LINK_TEXT, value='Sign in').click()
 # user id entry
-        driver.find_element(by=By.CSS_SELECTOR, value='input#mat-input-0').send_keys("divakar.nb@akzonobel.com")
+        driver.find_element(by=By.CSS_SELECTOR, value='input#mat-input-0').send_keys("test@gmail.com")
 # password entry
-        driver.find_element(by=By.CSS_SELECTOR, value='input#mat-input-1').send_keys("Guru@1972")
+        driver.find_element(by=By.CSS_SELECTOR, value='input#mat-input-1').send_keys("test")
 # login
         driver.find_element(by=By.XPATH, value="//button[@type='submit']").click()
 
